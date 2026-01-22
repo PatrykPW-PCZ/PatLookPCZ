@@ -1,0 +1,35 @@
+{
+  "name": "mail-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend dla aplikacji Mail Manager",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "init-db": "node src/config/initDatabase.js"
+  },
+  "keywords": [
+    "email",
+    "imap",
+    "smtp",
+    "mail"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailparser": "^3.6.5",
+    "multer": "^2.0.2",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.7",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

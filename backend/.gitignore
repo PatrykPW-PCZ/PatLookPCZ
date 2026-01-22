@@ -1,0 +1,9 @@
+node_modules/
+.env
+database.sqlite
+database-backup.sqlite
+*.sqlite
+*.db
+*.log
+accounts-backup.json
+.DS_Store
